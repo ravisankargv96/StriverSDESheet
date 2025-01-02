@@ -1,0 +1,52 @@
+class Solutions.Solution {
+public:
+    pair<int,int> palindromeSubstring(string s, int low, int high)
+    {
+        int n = s.size();
+
+        while(low>= 0 && high < n && s[low] == s[high])
+        {
+            low--;
+            high++;
+        }
+
+        return pair<int,int>({low+1,high-1});
+    }
+    string longestPalindrome(string s) {
+
+        pair<int,int> maxipair = {0,0};
+        int maxi = 0;
+
+        int n = s.size();
+        for(int i = 0; i<n; i++)
+        {
+            pair<int,int> lh = palindromeSubstring(s,i,i);
+            if(lh.second - lh.first + 1 > maxi)
+            {
+                maxi = lh.second - lh.first + 1;
+                maxipair.first = lh.first;
+                maxipair.second = lh.second;
+            }
+        }
+
+        for(int i = 0; i<n-1; i++)
+        {
+            pair<int,int> lh = palindromeSubstring(s,i,i+1);
+            if(lh.second - lh.first + 1 > maxi)
+            {
+                maxi = lh.second - lh.first + 1;
+
+                maxipair.first = lh.first;
+                maxipair.second = lh.second;
+            }
+        }
+
+        string st = "";
+        for(int i = maxipair.first; i<= maxipair.second; i++)
+        {
+            st += s[i];
+        }
+
+        return st;
+    }
+};

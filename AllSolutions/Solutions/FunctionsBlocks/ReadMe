@@ -1,0 +1,53 @@
+reverseLinkedList();
+1dMatrixRepresentation(); i.e. row,column,dia,adia - used for NQueens problem
+
+LinkedListStruct();
+
+bfsTemplate();
+comparision Template for BT, graphs & 2d matrix
+Pratice these 3 templates as much as possible
+
+dfsTemplate();
+comparision Template for BT, graphs & 2d matrix
+practice these 3 templates as much as possible
+
+binarySearch();
+
+mergingSortedArrays(); - used in Merge of mergeSort algo
+
+MergeSort();
+QuickSort();
+BubbleSort();
+InsertionSort(); i.e. insertingInSortArray();
+SelectionSort();
+kadanesAlgo();
+
+prefixSum();
+generateSubstrings();
+palindromeInward();
+palindromeOutward();
+dnfSorting();
+heightBinaryTree();
+diameterBinaryTree();
+nextGreaterElement();
+middleElementInLinkedList();
+
+iteratingThroughBits();
+generateSubsequence();
+permutations(); - recursive tree + tree walks + coding
+pow();
+overlapping() & nonoverlapping();
+lengthLinkedList(); - iterative & recursive
+
+Design a LinkedList
+
+addEdge(); - edgesToAdjacencyList();
+
+GCD();
+isPrime();
+Add Love-babber math topics
+binaryToDecimal();
+decimalToBinary();
+
+binaryToGrayCode();
+GraycodeToBinary();

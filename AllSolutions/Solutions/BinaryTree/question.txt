@@ -1,0 +1,1 @@
+There are N clients who have ordered N handmade items. The K-th

@@ -1,0 +1,50 @@
+Practiced lots of problems in Linked list.
+
+Fill linked list with these coding problems.
+
+Solutions.Basics
+    - Traversing Linked List
+    - Find the Length of Linked List
+    - Design a Linked List containing Insert, Delete at a Position
+    - Find the middle of Linked List
+    - Remove duplicates from an unsorted Linked List (optional)
+
+Popular
+    - Remove Nth Node from back of linked list
+    - Delete a given node when a node is given O(1)
+
+Cycle
+    - Detect a cycle in Linked List
+    - Find the starting point of loop of linked list
+
+Intersection Point
+    - Find Intersection point of Y linked list
+
+Rearranging
+    - Reverse Linked List
+    - Reorder List
+    - Swap Nodes in Pair in Linked List
+    - Reverse a Linked list in groups of size k
+    - Palindrome Linked List
+
+Rotation
+    - Rotate a linked list to right by k
+
+Sorting
+    - Merge two sorted linked list
+    - Sort a linked list of 0s-1s-2s
+    - Merge K Sorted Lists
+    - Merge sort for linked list
+    - Quicksort on singly-linked list
+
+Arithematic
+    - Add two number as linked list
+    - Substract two numbers represented as linked lists
+    - Multiply two numbers represented as linked list
+
+Recursive
+    - Flattening a linked list
+
+Important
+    - LRU Cache
+    - Clone a linked list with next & random pointer

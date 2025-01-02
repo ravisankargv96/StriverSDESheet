@@ -1,0 +1,29 @@
+BT Problems:
+1. BFS: Level Order Traversal (with Queue)
+2. BFS : Vertical Order traversal (using HashMap)
+3. BFS : Top View of Binary Tree (using HashMap), Assuming can also be done using DFS
+4. BFS : Bottom View of Binary Tree (using HashMap), Assuming can also be done using DFS
+5. BFS : Max width of BT (using HashMap, finding minKey & maxKey), Can also be done using DFS
+
+5. BFS (extended): Level Order Traversal (extended Version, Iterating Level Wise)
+6. BFS (extended): Left View of Binary Tree, Can also be done using DFS
+7. BFS (extended): Right View of Binary Tree, Can also be done using DFS
+8. BFS (extended): ZigZag Traversal of BT
+9. BFS (extended): Boundary Traversal of BT
+
+
+
+DFS : Pre/In/Post Order
+DFS : Height of BT (Post Order)
+DFS : Diameter of BT (Post Order, check the dia of node, returns height)
+DFS : Check if the BT is height-balance (Post Order, check if it's height balanced, returns height)
+
+DFS : Root to Node Path (Contains Pre,In,Post Order logics)
+DFS : LCA in BT (Contains Pre, In, Post Order logic)
+
+DFS : Check if two trees are identical or not (Imaginary Tree, Contains Pre, In, Post Order logic)
+DFS : Check Symmetric BT (Imaginary Tree, Contains Pre,In,Post Order logic)
+
+DFS : Construct BT from inOrder & preOrder (involves in identifying left part, right part based root)
+DFS : Construct BT from inOrder & PostOrder (involves in identifying left part, right part based root)
+

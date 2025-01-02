@@ -1,0 +1,12 @@
+*.obsidian
+AllSolutions/.idea
+AllSolutions/out
+AllSolutions/Solutions/*.xlsx
+AllSolutions/Solutions/DP/FunctionTrees/*.png
+AllSolutions/Solutions/DP/*.xlsx
+AllSolutions/Solutions/Maths/*.pdf
+AllSolutions/Solutions/Patterns/pictures
+AllSolutions/Solutions/Patterns/*.pdf
+AllSolutions/Solutions/Questions/*.pdf
+AllSolutions/Solutions/Questions - Copy/*
+Content
