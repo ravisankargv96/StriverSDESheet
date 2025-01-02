@@ -1,0 +1,41 @@
+package Solutions.LinkedList;
+
+import Solutions.Blocks.ListNode;
+public class IntersectionOfYList {
+
+    static ListNode insertNode(ListNode head, int val){
+
+        ListNode newNode = new ListNode(val);
+
+        if(head == null){
+            head = newNode;
+            return head;
+        }
+
+        ListNode temp = head;
+        while(temp.next != null){
+            temp = temp.next;
+        }
+
+        temp.next = newNode;
+        return head;
+    }
+    //utility function to check presence of intersection
+    static ListNode intersectionPresent(ListNode head1, ListNode head2){
+        while(head2 != null){
+
+            ListNode temp = head1;
+            while(temp != null){
+                // if both nodes are same
+                if(temp == head2){
+                    return temp;
+                }
+                temp = temp.next;
+            }
+            head2 = head2.next;
+        }
+
+        //intersection is not present between the lists return null
+        return null;
+    }
+}

@@ -1,6 +1,8 @@
-package LinkedList;
+package Solutions.LinkedList;
 
-public class RemoveNthNodeOfLL {
+import Solutions.Blocks.ListNode;
+
+public class RemoveNthNode {
     /**
      * Idea:
      * Two pointers should be present
@@ -8,16 +10,17 @@ public class RemoveNthNodeOfLL {
      * slow pointer should be standing before the removed node
      *
      * Here: dummy node is helpful,
-     * inchance you wanna remove first node
+     * incase you need to remove the first node
      * */
     public ListNode removeNthFromEnd(ListNode head, int n){
 
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
+
         ListNode fast = dummy;
         ListNode slow = dummy;
 
-        // at i = 1, fast = head;
+        // eg. @ i = 1, fast = head;
         for(int i = 1; i <= n; i++){
             fast = fast.next;
         }
@@ -31,5 +34,16 @@ public class RemoveNthNodeOfLL {
         slow.next = slow.next.next;
 
         return dummy.next;
+    }
+
+    public static void printList(ListNode head) {
+        while(head != null) {
+            System.out.println(head.val);
+            head = head.next;
+        }
+    }
+
+    public static void main(String[] args) {
+        // Complete the code
     }
 }

@@ -1,4 +1,6 @@
-package LinkedList;
+package Solutions.LinkedList;
+
+import Solutions.Blocks.ListNode;
 
 public class MiddleNode {
 
@@ -53,5 +55,21 @@ public class MiddleNode {
             return slow;
         }
         return slow.next;
+    }
+
+    private static void printList(ListNode res){
+        System.out.println(res.val);
+    }
+    public static void main(String[] args) {
+        // Initializing the Linked List
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
+
+        MiddleNode mn = new MiddleNode();
+        ListNode res = mn.middleNode(head);
+        printList(res);
     }
 }
