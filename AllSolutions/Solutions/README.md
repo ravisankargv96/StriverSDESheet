@@ -5,7 +5,7 @@
 | 1   | Arrays                   | Next Permutation                                             |          | [x]   |        |
 |     |                          | Majority Elements $(>N/2 times)$                             |          | []    |        |
 |     |                          | Majority Elements $(> N/3 times)$                            |          | []    |        |
-|     |                          | Pow$(x,n)$                                                   |          | []    |        |
+|     |                          | Pow $(x,n)$                                                   |          | []    |        |
 |     |                          | 2-Sum Problem                                                |          | []    |        |
 |     |                          | 3-Sum Problem                                                |          | []    |        |
 |     |                          | 4-Sum Problem                                                |          | []    |        |
