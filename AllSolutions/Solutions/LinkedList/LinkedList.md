@@ -19,3 +19,14 @@ Index of Problems
 | 13  | Rotate a Linked List                                         | Application       | []    | [x]      |
 | 14  | Clone a Linked List with random & next pointer               | Application       | []    | [x]      |
 | 15  | LRU Cache                                                    | Algo              | []    | [x]      |
+
+
+## Algos & Helper
+1. Reverse a linked list
+2. fast & slow pointer
+3. floyd warshall Algo to find starting point in linked list loop. (proof)
+4. Merging two sorted linked lists
+5. Finding Nth node from end (idea/Algo)
+	1. Add a dummy node, move the fast pointer k steps.
+	2. To reach fast pointer to n-1th location it should increment (n-1) - (k) steps.
+	3. Then slowpointer is at n-1-k i.e. (n-k)-1th position, there for the next element is (n-k)th one.

@@ -2,39 +2,39 @@
 
 | Sno | Topic                    | Description                                                  | Articles | Codes | Rating |
 | --- | ------------------------ | ------------------------------------------------------------ | -------- | ----- | ------ |
-| 1   | Arrays                   | Next Permutation                                             |          | [x]   |        |
-|     |                          | Majority Elements $(>N/2 times)$                             |          | []    |        |
-|     |                          | Majority Elements $(> N/3 times)$                            |          | []    |        |
-|     |                          | Pow$(x,n)$                                                   |          | []    |        |
-|     |                          | 2-Sum Problem                                                |          | []    |        |
-|     |                          | 3-Sum Problem                                                |          | []    |        |
-|     |                          | 4-Sum Problem                                                |          | []    |        |
+| 1   | Arrays                   | Next Permutation                                             | [x]      | [x]   |        |
+|     |                          | Majority Elements $(>N/2 times)$                             | [x]      | []    |        |
+|     |                          | Majority Elements $(> N/3 times)$                            | [x]      | []    |        |
+|     |                          | Pow$(x,n)$                                                   | []       | []    |        |
+|     |                          | 2-Sum Problem                                                | [x]      | []    |        |
+|     |                          | 3-Sum Problem                                                | [x]      | []    |        |
+|     |                          | 4-Sum Problem                                                | [x]      | []    |        |
 |     |                          |                                                              |          |       |        |
-|     | Arrays                   | Merge two sorted Arrays without extraspace                   |          | []    |        |
-|     |                          | Sort an array of **0's 1's & 2's**                           |          | []    |        |
-|     |                          | Longest Consecutive Sequence                                 |          | []    |        |
-|     |                          | Inversion of Array (**MergeSort**)                           |          | []    |        |
-|     |                          | Reverse Pairs (**MergeSort**)                                |          | []    |        |
-|     |                          | Find the duplicate in an array of $N+1$ integers             |          | []    |        |
-|     |                          | Repeat & Missing Number                                      |          | []    |        |
+|     | Arrays                   | Merge two sorted Arrays without extraspace                   | [x]      | []    |        |
+|     |                          | Sort an array of **0's 1's & 2's**                           | [x]      | []    |        |
+|     |                          | Longest Consecutive Sequence                                 | [x]      | []    |        |
+|     |                          | Inversion of Array (**MergeSort**)                           | [x]      | []    |        |
+|     |                          | Reverse Pairs (**MergeSort**)                                | [x]      | []    |        |
+|     |                          | Find the duplicate in an array of $N+1$ integers             | [x]      | []    |        |
+|     |                          | Repeat & Missing Number                                      | [x]      | []    |        |
 |     |                          |                                                              |          |       |        |
-|     | Arrays                   | Maximum Subarray Sum                                         |          | []    |        |
-|     |                          | Maximum Subarray Sum                                         |          | []    |        |
-|     |                          | Largest Subarray with $0$ sum                                |          | []    |        |
-|     |                          | Largest Subarray with $k$ sum                                |          | []    |        |
-|     |                          | Count number of subarrays with given Xor K                   |          | []    |        |
-|     |                          | Longest Substring without repeat                             |          | []    |        |
-|     |                          | Trapping rainwater                                           |          | []    |        |
-|     |                          | Stock buy & Sell                                             |          | []    |        |
-|     |                          | Remove Duplicate from Sorted array                           |          | []    |        |
-|     |                          | Maximum Consecutive one's                                    |          | []    |        |
+|     | Arrays                   | Maximum Subarray Sum                                         | [x]      | []    |        |
+|     |                          | Largest Subarray with $0$ sum                                | [x]      | []    |        |
+|     |                          | Largest Subarray with $k$ sum                                | [x]      | []    |        |
+|     |                          | Count number of subarrays with given Xor K                   | [x]      | []    |        |
+|     |                          | Longest Substring without repeat                             | [x]      | []    |        |
+|     |                          | Trapping rainwater                                           | [x]      | []    |        |
+|     |                          | Stock buy & Sell                                             | [x]      | []    |        |
+|     |                          | Remove Duplicate from Sorted array                           | [x]      | []    |        |
+|     |                          | Maximum Consecutive one's                                    | [x]      | []    |        |
 |     |                          |                                                              |          |       |        |
-|     | Arrays                   | Rotate Matrix                                                |          | []    |        |
-|     |                          | Set Matrix Zeros                                             |          | []    |        |
-|     |                          | Pascal's Triangle                                            |          | []    |        |
-|     |                          | Merge Overlapping Subintervals                               |          | []    |        |
-|     |                          | Search in a 2d Matrix                                        |          | []    |        |
-|     |                          | Grid Unique Paths                                            |          | []    |        |
+|     | Arrays                   | Rotate Matrix                                                | [x]      | []    |        |
+|     |                          | Set Matrix Zeros                                             | [x]      | []    |        |
+|     |                          | Pascal's Triangle                                            | [x]      | []    |        |
+|     |                          | Merge Overlapping Subintervals                               | [x]      | []    |        |
+|     |                          | Search in a row-wise & col-wise sorted Matrix                | [x]      | []    |        |
+|     |                          | Search element in sorted matrix                              | [x]      |       |        |
+|     |                          | Grid Unique Paths                                            | [x]      | []    |        |
 |     |                          |                                                              |          |       |        |
 |     |                          |                                                              |          |       |        |
 |     | Linked List              | Reverse a Linked List                                        | [x]      | []    | Easy   |
