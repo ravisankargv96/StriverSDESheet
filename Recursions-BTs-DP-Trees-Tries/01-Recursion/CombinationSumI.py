@@ -1,34 +1,34 @@
 from typing import List
-
-class Solution:
-    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        ans = []
-        ds = []
+from visualiser.visualiser import Visualiser as vs
 
 
-        def findCombination(ind: int, target: int):
-            if ind == len(candidates):
-                if target == 0:
-                    ans.append(ds[:])
-                return
-            if candidates[ind] <= target:
-                ds.append(candidates[ind])
-                findCombination(ind, target - candidates[ind])
-                ds.pop()
-            findCombination(ind + 1, target)
-        findCombination(0, target)
-        return ans
+@vs(show_return_value=False,node_properties_kwargs={"shape": "record", "color": "#000000", "style": "filled", "fillcolor": "grey"})
+def f(ind, state, target):
+
+    if ind == len(nums):
+        if target == 0:
+            res.append(state[:])
+        return
+
+    # Consider Case: Pruning other branches i.e. nums[ind] > target
+    if nums[ind] <= target:
+        state.append(nums[ind])
+        f(ind, state, target - nums[ind])
+        state.pop()
+
+    # Non Consider Case:
+    f(ind + 1, state, target)
 
 
 
 
 if __name__ == "__main__":
-    obj = Solution()
-    candidates = [2, 3, 6, 7]
+    nums = [2, 3, 6, 7]
     target = 7
-    ans = obj.combinationSum(candidates, target)
-    print("Combinations are: ")
-    for i in range(len(ans)):
-        for j in range(len(ans[i])):
-            print(ans[i][j], end=" ")
-        print()
+    res = []
+    state = []
+
+    f(0, state, target)
+    vs.make_animation(r"img\01-Recursion\combinationSumI.gif", delay = 2)
+
+    

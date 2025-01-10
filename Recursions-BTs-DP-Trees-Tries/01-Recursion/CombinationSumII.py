@@ -1,35 +1,30 @@
 from typing import List
+from visualiser.visualiser import Visualiser as vs
 
 
-
-
-def combinationSum2(candidates: List[int], target: int) -> List[List[int]]:
-    ans = []
-    ds = []
-    candidates.sort()
-
-
-    def findCombination(ind: int, target: int):
-        if target == 0:
-            ans.append(ds[:])
-            return
-        for i in range(ind, len(candidates)):
-            if i > ind and candidates[i] == candidates[i - 1]:
-                continue
-            if candidates[i] > target:
-                break
-            ds.append(candidates[i])
-            findCombination(i + 1, target - candidates[i])
-            ds.pop()
-
-
-    findCombination(0, target)
-    return ans
-
-
+@vs(show_return_value=False,node_properties_kwargs={"shape": "record", "color": "#000000", "style": "filled", "fillcolor": "grey"})
+def f(ind: int, state: List, target: int):
+    if target == 0:
+        res.append(state[:])
+        return
+    for i in range(ind, len(nums)):
+        if i > ind and nums[i] == nums[i - 1]:
+            continue
+        if nums[i] > target:
+            break
+        state.append(nums[i])
+        f(i + 1, state, target - nums[i])
+        state.pop()
 
 
 if __name__ == "__main__":
-    v = [10, 1, 2, 7, 6, 1, 5]
-    comb = combinationSum2(v, 8)
-    print(*comb)
+    nums = [10, 1, 2, 7, 6, 1, 5]
+    target = 8
+    
+    res = []
+    state = []
+    nums.sort()
+    
+    f(0, state, target)
+    vs.make_animation(r"img\01-Recursion\combinationSumII.gif", delay = 2)
+

@@ -1,29 +1,24 @@
 from typing import List
+from visualiser.visualiser import Visualiser as vs
 
-class Solution:
-    def subsetSums(self, arr: List[int], n: int) -> List[int]:
-        ans = []
-
-
-        def subsetSumsHelper(ind: int, sum: int):
-            if ind == n:
-                ans.append(sum)
-                return
-            # element is picked
-            subsetSumsHelper(ind + 1, sum + arr[ind])
-            # element is not picked
-            subsetSumsHelper(ind + 1, sum)
-        subsetSumsHelper(0, 0)
-        ans.sort()
-        return ans
-
-
+@vs(show_return_value=False,node_properties_kwargs={"shape": "record", "color": "#000000", "style": "filled", "fillcolor": "grey"})
+def f(ind: int, sum: int):
+    
+    if ind == len(nums):
+        res.append(sum)
+        return
+    
+    # element is picked
+    f(ind + 1, sum + nums[ind])
+    
+    # element is not picked
+    f(ind + 1, sum)
 
 
 if __name__ == "__main__":
-    arr = [3, 1, 2]
-    ans = Solution().subsetSums(arr, len(arr))
-    print("The sum of each subset is")
-    for sum in ans:
-        print(sum, end=" ")
-    print()
+    nums = [1, 2, 3]
+    res = []
+    sum = 0
+    
+    f(0, sum)
+    vs.make_animation(r"img\01-Recursion\subsets_sum.gif", delay = 2)
